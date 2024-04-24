@@ -12,7 +12,7 @@ export const getRandomElement = <T>(arr: T[]): T | undefined => {
 };
 
 export const getRandomWord = (kana: Kana) => {
-  const wordList = kana === 'hiragana' ? hiraganaWords : katakanaWords;
+  const wordList = kana === 'Hiragana' ? hiraganaWords : katakanaWords;
 
   const randomWord = getRandomElement(wordList)!
 

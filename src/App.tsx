@@ -6,6 +6,7 @@ import { Segmented } from 'antd';
 
 function App() {
   const [kana, setKana] = useState<Kana>('Hiragana');
+  // @ts-ignore
   const currentWord = useState<Word>(() => getRandomWord(kana))
 
   return (
