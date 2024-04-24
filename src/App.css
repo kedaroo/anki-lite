@@ -1,0 +1,16 @@
+.con {
+  padding: 1rem;
+}
+
+.main-con {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 70vh;
+}
+
+.main-con .button {
+  align-self: center;
+  /* transform: scale(2); */
+  margin-top: auto;
+}
